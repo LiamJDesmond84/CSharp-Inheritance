@@ -7,9 +7,9 @@ namespace CSharp_Inheritance
 {
     public class Vehicle
     {
-    public int NumPassengers;
-    public string Color;
-    public double Odometer;
+    protected int NumPassengers;
+    protected string Color;
+    protected double Odometer;
     //* Say Vehicle has two overloaded constructors
     //* We will either need to pass up two values (int, string), from Car ...
     public Vehicle(int numPas, string col)
@@ -31,6 +31,13 @@ namespace CSharp_Inheritance
         Console.WriteLine($"Num Passengers: {NumPassengers}");
         Console.WriteLine($"Color: {Color}");
         Console.WriteLine($"Miles: {Odometer}");
+    }
+
+    public void Drive(double distance)
+    {
+
+        Odometer += distance;
+        Console.WriteLine("My odometer is now at: " + Odometer + " miles");
     }
 
 

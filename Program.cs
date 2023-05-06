@@ -13,6 +13,8 @@ namespace CSharp_Inheritance
             vehicle.GetInfo();
 
             car.GetInfo();
+
+            car.Drive(100);
         }
     }
 }
