@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CSharp_Inheritance
 {
@@ -10,11 +11,18 @@ namespace CSharp_Inheritance
 
             Car car = new Car("Yellow", 69, "Hyundai", "Elantra");
 
-            vehicle.GetInfo();
+            // vehicle.GetInfo();
 
-            car.GetInfo();
+            // car.GetInfo();
 
-            car.Drive(100);
+            // car.Drive(100);
+
+            List<Vehicle> vehicles = new List<Vehicle>();
+
+            foreach(var x in vehicles){
+
+                Console.WriteLine(x);
+            }
         }
     }
 }
