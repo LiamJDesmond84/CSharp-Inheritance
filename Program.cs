@@ -6,7 +6,9 @@ namespace CSharp_Inheritance
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Vehicle vehicle = new Vehicle(4,"Green");
+
+            Car car = new Car("Yellow", "Hyundai", "Elantra");
         }
     }
 }
