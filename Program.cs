@@ -17,12 +17,16 @@ namespace CSharp_Inheritance
 
             // car.Drive(100);
 
-            List<Vehicle> vehicles = new List<Vehicle>();
+            Person dude = new Person();
+            dude.setVehicles(vehicle);
+            dude.setVehicles(car);
 
-            foreach(var x in vehicles){
+            dude.getVehicles();
 
-                Console.WriteLine(x);
-            }
+            // foreach(var x in vehicles){
+
+            //     x.GetInfo();
+            // }
         }
     }
 }
