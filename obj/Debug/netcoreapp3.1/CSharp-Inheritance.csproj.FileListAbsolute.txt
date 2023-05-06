@@ -1,0 +1,11 @@
+C:\Users\liamj\Documents\GitRepos\CSharp-Inheritance\bin\Debug\netcoreapp3.1\CSharp-Inheritance.exe
+C:\Users\liamj\Documents\GitRepos\CSharp-Inheritance\bin\Debug\netcoreapp3.1\CSharp-Inheritance.deps.json
+C:\Users\liamj\Documents\GitRepos\CSharp-Inheritance\bin\Debug\netcoreapp3.1\CSharp-Inheritance.runtimeconfig.json
+C:\Users\liamj\Documents\GitRepos\CSharp-Inheritance\bin\Debug\netcoreapp3.1\CSharp-Inheritance.runtimeconfig.dev.json
+C:\Users\liamj\Documents\GitRepos\CSharp-Inheritance\bin\Debug\netcoreapp3.1\CSharp-Inheritance.dll
+C:\Users\liamj\Documents\GitRepos\CSharp-Inheritance\bin\Debug\netcoreapp3.1\CSharp-Inheritance.pdb
+C:\Users\liamj\Documents\GitRepos\CSharp-Inheritance\obj\Debug\netcoreapp3.1\CSharp-Inheritance.csprojAssemblyReference.cache
+C:\Users\liamj\Documents\GitRepos\CSharp-Inheritance\obj\Debug\netcoreapp3.1\CSharp-Inheritance.AssemblyInfoInputs.cache
+C:\Users\liamj\Documents\GitRepos\CSharp-Inheritance\obj\Debug\netcoreapp3.1\CSharp-Inheritance.AssemblyInfo.cs
+C:\Users\liamj\Documents\GitRepos\CSharp-Inheritance\obj\Debug\netcoreapp3.1\CSharp-Inheritance.dll
+C:\Users\liamj\Documents\GitRepos\CSharp-Inheritance\obj\Debug\netcoreapp3.1\CSharp-Inheritance.pdb

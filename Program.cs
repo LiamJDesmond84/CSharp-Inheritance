@@ -8,7 +8,11 @@ namespace CSharp_Inheritance
         {
             Vehicle vehicle = new Vehicle(4,"Green");
 
-            Car car = new Car("Yellow", "Hyundai", "Elantra");
+            Car car = new Car("Yellow", 69, "Hyundai", "Elantra");
+
+            vehicle.GetInfo();
+
+            car.GetInfo();
         }
     }
 }

@@ -19,11 +19,21 @@ namespace CSharp_Inheritance
         Odometer = 0;
     }
     //* Or just one string value.  
-    public Vehicle(string col)
+    public Vehicle(string col, int odem)
     {
         NumPassengers = 5;
         Color = col;
-        Odometer = 0;
+        Odometer = odem;
     }
+
+    public virtual void GetInfo()
+    {
+        Console.WriteLine($"Num Passengers: {NumPassengers}");
+        Console.WriteLine($"Color: {Color}");
+        Console.WriteLine($"Miles: {Odometer}");
+    }
+
+
+    
     }
 }
