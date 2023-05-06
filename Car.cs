@@ -18,9 +18,11 @@ namespace CSharp_Inheritance
 
         public override void GetInfo()
         {
-        Console.WriteLine($"Num Passengers: {NumPassengers}");
-        Console.WriteLine($"Color: {Color}");
-        Console.WriteLine($"Miles: {Odometer}");
+
+        base.GetInfo();
+        // Console.WriteLine($"Num Passengers: {NumPassengers}");
+        // Console.WriteLine($"Color: {Color}");
+        // Console.WriteLine($"Miles: {Odometer}");
         Console.WriteLine($"Make: {Make}");
         Console.WriteLine($"Model: {Model}");
         }
