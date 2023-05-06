@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CSharp_Inheritance, IRideable
+namespace CSharp_Inheritance
 {
     
-    public class Car: Vehicle
+    public class Car: Vehicle, IRideable
     {
         public string Make;
         public string Model;
