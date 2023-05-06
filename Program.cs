@@ -39,15 +39,27 @@ namespace CSharp_Inheritance
                 new Horse("Samammish", 75),
             };
             // let them all ride!
-            foreach(var rideable in variousRideables)
-            {
-                // each "rideable" object will be able to invoke the common "Ride()" method
-                // however the implementation of "Ride()" will be unique to how each class has chosen to build it
-                rideable.Ride(50);
-            }
+            // foreach(var rideable in variousRideables)
+            // {
+            //     // each "rideable" object will be able to invoke the common "Ride()" method
+            //     // however the implementation of "Ride()" will be unique to how each class has chosen to build it
+            //     rideable.Ride(50);
+            // }
 
 
+            dude.GoSomewhere(34);
+                    
+            // we can also change him Transport to a Horse
+            dude.Transport = wilbur;
+            dude.GoSomewhere(100);
+            dude.GetInfo();
 
+            walter.GoSomewhere(34);
+                    
+            // we can also change him Transport to a Car
+            walter.Transport = car;
+            walter.GoSomewhere(100);
+            walter.GetInfo();
 
         }
 
