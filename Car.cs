@@ -5,10 +5,15 @@ using System.Threading.Tasks;
 
 namespace CSharp_Inheritance
 {
+    
     public class Car: Vehicle
     {
-        public Car(string color) : base(color){
+        public string Make;
+        public string Model;
 
+        public Car(string color, string make, string model) : base(color){
+            Make = make;
+            Model = model;
         }
     }
 }
