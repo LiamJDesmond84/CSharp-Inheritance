@@ -7,7 +7,7 @@ namespace CSharp_Inheritance
     {
         static void Main(string[] args)
         {
-            Vehicle vehicle = new Vehicle(4,"Green");
+            // Vehicle vehicle = new Vehicle(4,"Green");
 
             Car car = new Car("Yellow", 69, "Hyundai", "Elantra");
             Horse wilbur = new Horse("Wilbur", 120);
@@ -20,7 +20,7 @@ namespace CSharp_Inheritance
 
             Person dude = new Person("Dude", car);
             Person walter = new Person("Walter", wilbur);
-            dude.setVehicles(vehicle);
+            // dude.setVehicles(vehicle);
             dude.setVehicles(car);
 
             // dude.getVehicles();

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace CSharp_Inheritance
 {
-    public class Vehicle
+    public abstract class Vehicle
     {
     protected int NumPassengers;
     protected string Color;
