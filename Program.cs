@@ -63,7 +63,7 @@ namespace CSharp_Inheritance
 
 
             //# IEnumerable
-            // That's because our function will accept ANY collection of strings
+            //* That's because our function will accept ANY collection of strings
             static void LoopingSomeWords(IEnumerable<string> someWords)
             {
                 foreach(var word in someWords)
@@ -73,12 +73,14 @@ namespace CSharp_Inheritance
             }
 
             string[] wordArray = new string[]{"Goat", "Bear", "Skunk", "Deer" };
-            // And a List of strings
+            //* And a List of strings
             List<string> wordList = new List<string>() {"Plate", "Cup", "Fork", "Meat Cleaver", "Spatula"};
-            // We can call our function with either!
-            LoopingSomeWords(wordArray);
-            LoopingSomeWords(wordList);
+            //* We can call our function with either!
+            // LoopingSomeWords(wordArray);
+            // LoopingSomeWords(wordList);
 
+            //# Using abstract method
+            car.MakeNoise();
         }
 
     }
