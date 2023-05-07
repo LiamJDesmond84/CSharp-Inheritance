@@ -47,19 +47,19 @@ namespace CSharp_Inheritance
             // }
 
 
-            dude.GoSomewhere(34);
+            // dude.GoSomewhere(34);
                     
             // we can also change him Transport to a Horse
             dude.Transport = wilbur;
-            dude.GoSomewhere(100);
-            dude.GetInfo();
+            // dude.GoSomewhere(100);
+            // dude.GetInfo();
 
-            walter.GoSomewhere(34);
+            // walter.GoSomewhere(34);
                     
             // we can also change him Transport to a Car
             walter.Transport = car;
-            walter.GoSomewhere(100);
-            walter.GetInfo();
+            // walter.GoSomewhere(100);
+            // walter.GetInfo();
 
 
             //# IEnumerable
@@ -71,6 +71,13 @@ namespace CSharp_Inheritance
                     Console.WriteLine(word);
                 }
             }
+
+            string[] wordArray = new string[]{"Goat", "Bear", "Skunk", "Deer" };
+            // And a List of strings
+            List<string> wordList = new List<string>() {"Plate", "Cup", "Fork", "Meat Cleaver", "Spatula"};
+            // We can call our function with either!
+            LoopingSomeWords(wordArray);
+            LoopingSomeWords(wordList);
 
         }
 
