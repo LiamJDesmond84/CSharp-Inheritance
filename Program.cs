@@ -61,6 +61,17 @@ namespace CSharp_Inheritance
             walter.GoSomewhere(100);
             walter.GetInfo();
 
+
+            //# IEnumerable
+            // That's because our function will accept ANY collection of strings
+            static void LoopingSomeWords(IEnumerable<string> someWords)
+            {
+                foreach(var word in someWords)
+                {
+                    Console.WriteLine(word);
+                }
+            }
+
         }
 
     }
