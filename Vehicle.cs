@@ -40,6 +40,12 @@ namespace CSharp_Inheritance
         Console.WriteLine("My odometer is now at: " + Odometer + " miles");
     }
 
+    //# Abstract Method
+    // "abstract" methods only take a method "signature", just like interfaces
+    // they also must be either "public" or "protected", as they need to be
+    // accessible to their child classes
+    public abstract void MakeNoise();
+
 
     
     }
